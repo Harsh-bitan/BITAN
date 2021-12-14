@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  
+    background: rgb(150,248,254);
+    background: linear-gradient(323deg, rgba(150,248,254,0.6643032212885154) 7%, rgba(93,107,208,0.5690651260504201) 53%, rgba(187,118,235,0.6334908963585435) 86%);
+		background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: sans-serif;
+}
+.frm{
+
+    background: rgb(133,133,133);
+background: linear-gradient(323deg, rgba(133,133,133,1) 0%, rgba(132,107,187,0.23573179271708689) 42%, rgba(235,118,118,1) 85%);
+    padding: 50px;
+    margin: 100px;
+    width: 450px;
+    height: auto;
+    margin-bottom: 200px;
+    border: 3px rgba(241, 234, 234, 0.479) solid;
+    border-radius: 5px;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.frm .int input ,
+.frm .int1 input 
+{
+    width: 300px;
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 0px 5px;
+    border-radius: 5px solid black;
+    
+}
+ p
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+
+}
+.btn button{
+    width: 300px;
+    background-color: rgb(83, 142, 253);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    outline: black;
+
+}
+
+#sp1,#sp2
+{
+    color: red;
+    margin: 5px;
+    padding-right: 50px;
+    background-color: rgb(247, 181, 181);
+    display:none;
+    
+}

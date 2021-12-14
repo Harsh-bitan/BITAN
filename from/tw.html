@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tw.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<header>
+
+    <div class="head"><h1>Techweirdo</h1></div>
+   
+   
+</header>
+<body>
+    <div class="container">
+        <div id="form">
+            
+            <form action="#" onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+                <div class="customar-details">
+                
+                    <div class="input-details">
+                
+                        <span class="details">customer name:</span>
+                        <input type="text" id="customer" name="customer" size="20">
+                
+                    </div>  
+                
+                
+                    <br> <br>
+                    <div class="input-details">
+                        <span class="details">address :</span>
+                        <input type="text" id="address" name="address" size="20">
+                    </div>
+                    <br> <br>
+                    <div class="input-details">
+                        <span class="details">country :</span>
+                        <input type="text" id="country" name="country" size="20">
+                    </div>
+                    <br> <br>
+                    <div class="input-details">
+                        <span class="details">applicable taxes  :</span>
+                        <input type="text" id="tax" name="tax" size="20">
+                    </div>
+                    <br> <br>
+                    <div class="input-details">
+                        <span class="details">date and time :</span>
+                        <input type="text" id="date" name="date" size="20">
+                    </div>
+                    <br> <br>
+                    <div class="input-details">
+                        <span class="details"> contact no :</span>
+                        <input type="text" id="contact" name="contact" size="20">
+                    </div>
+                    <br>
+                    <br>
+                   
+                    <div >
+                        <div class="switch">
+                            
+                        <button type="submit" id ="btn" name="add" >Add</button>
+                        
+                        </div>
+                        
+    
+                    </div>
+                        
+                    
+                </div>
+              
+
+                
+            </form>
+            <div class="conttbl">
+                <table class="tbl" id="emprec">
+                    <thead id="thd">
+                        <tr id="tr">
+                            <td> serial number</td>
+                            <td> customer name:</td>
+                            <td>address :</td>
+                            <td>country :</td>
+                            <td> applicable taxes :</td>
+                            <td>date and time :</td>
+                            <td>contact no :</td>
+                            <td></td>
+    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+<script src="tw.js"></script>
+
+</body>
+</html>
